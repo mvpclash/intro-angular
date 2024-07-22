@@ -1,0 +1,68 @@
+.sidebar{
+    flex: 1;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 15px;
+ }
+ .sidebar .widget{
+    margin-bottom: 1rem;
+ }
+ .sidebar button{
+    width: 100%;
+    padding: 1rem;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+ }
+ .footer{
+    background-color: #cf2e2e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    
+ }
+
+ .formulario {
+   background-color: azure ;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   width: 300px;
+}
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+.form-group label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   box-sizing: border-box;
+}
+
+.btn {
+   width: 100%;
+   padding: 10px;
+   background-color: #007bff;
+   border: none;
+   border-radius: 4px;
+   color: white;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.btn:hover {
+   background-color: #0056b3;
+}
+
+ 
