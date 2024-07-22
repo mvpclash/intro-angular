@@ -10,12 +10,12 @@ import { JsonPlaceHolderServiceService } from 'src/app/services/json-place-holde
 })
 export class IndexComponent implements OnInit {
   public posts: JsonPlaceHolderModel[] = [] ;
-  loginForm: FormGroup;
+  // loginForm: FormGroup;
 
   constructor(private jsonPlaceHolderService: JsonPlaceHolderServiceService,
     private formBuilder : FormBuilder
     ) {
-      this.loginForm = this
+      // this.loginForm = this
      }
 
   ngOnInit(): void {
